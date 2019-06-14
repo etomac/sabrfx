@@ -14,3 +14,19 @@ A robust framework would help users in the FX world to navigate round the conven
 
 ## Using the code
 
+This eco system contains 3 pieces of scripts: Black-Scholes, SABR and FX Vol. These are written in Python 2.7.
+
+
+To import the SABR framework into your code one can do:
+```
+from sabrln import smile
+```
+
+And, to create a smile object smiply do:
+```
+fwd    = 1.0
+expiry = 2.0
+df     = 1.0
+
+smileobject = smile(fwd, expiry, df)
+```
