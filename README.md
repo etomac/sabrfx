@@ -22,7 +22,7 @@ To import the SABR class into your code one can do:
 from sabrln import smile
 ```
 
-And, to create a smile object smiply do:
+And, to create a smile object simply do:
 ```
 fwd    = 1.0
 expiry = 2.0
@@ -55,7 +55,7 @@ Finally, to calculate the volatility as modelled by the SABR framework, one can 
 
 ```
 
-targetstrike = np.array([0.8, 0.94, 1.01, 1.20])
+targetstrikes = np.array([0.8, 0.94, 1.01, 1.20])
 
 print smileobject.modelvols(targetstrikes)
 
